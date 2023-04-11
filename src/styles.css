@@ -1,0 +1,46 @@
+body{
+    background-color: bisque;
+    height:100%;
+    width:100%;
+}
+table{
+    background-color: aqua;
+    box-shadow: 0 0 20px black;
+    font-family: fantasy;
+    padding: 10px;
+    text-align: center;
+}
+.heading{
+    font-family: cursive;
+    font-weight: 400;
+    font-size: larger;
+}
+.workflows{
+    padding:0 32%;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.rowC{
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.node_span_l{
+    padding-right:100px ;
+    padding-top: 50px;
+    padding-bottom:50px;
+    background-color: aliceblue;
+}
+.node_span_r{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    background-color: aliceblue;
+}
